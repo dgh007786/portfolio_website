@@ -1,9 +1,9 @@
 <?php
 
 	// site owner
-	$site_name = 'ikonik HTML5 Template';
-	$sender_domain = 'server@your-domain.com';
-	$to = 'jonhdoeeee@jonhdoe.com';
+	$site_name = 'Gunjan Dayani Portfolio';
+	$sender_domain = 'dgh007786007@gmail.com';
+	$to = 'gunjandayani015@gmail.com';
 	
 	// contact form fields
 	$name = trim( $_POST['name'] );
@@ -18,12 +18,8 @@
 	if ( $subject === "" ) { $error = true; }
 	if ( $message === "" ) { $error = true; }
 	
-	// anti-spam check
-	// http://nfriedly.com/techblog/2009/11/how-to-build-a-spam-free-contact-forms-without-captchas/
-	// if the url field is empty 
 	if(isset($_POST['url']) && $_POST['url'] == ''){
 		 
-		 // if no error, then send mail
 		if ( $error == false )
 		{
 			$body = "Name: $name \n\nEmail: $email \n\nMessage: $message";

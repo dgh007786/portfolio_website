@@ -134,6 +134,9 @@ h1 {
 h2 {
  	font-size: calc(16px + 1.44vw); margin: 1.0em 0 0.6em 0; line-height: 1.3; 
 	}
+.col-sm-9 h2 {
+		font-size: calc(10px + 1.24vw); margin: 1.0em 0 0.6em 0; line-height: 1.3; 
+	}
 h3 {
 	font-size: calc(15px + .3vw); margin: 1.0em 0 .6em 0; font-weight: 500;
 	}
@@ -499,7 +502,7 @@ textarea,
 	}
 .header-wrap.layout-full {
 	margin: 0;
-	}
+	}	
 .header-wrap > img {
 	display: none;
 	}
@@ -650,6 +653,7 @@ textarea,
   .header-wrap .home-heading {
 	margin: 4vh 0 10vh;
 	} 
+
   
   /* small screens */
   @media screen and (max-width: 991px) {
@@ -2960,3 +2964,9 @@ button,
 #nprogress .spinner-icon {
   	border-top-color: #1851f1; border-left-color: #1851f1;
 	}
+.giphy-embed{
+	width: 230px;
+}
+.abbaneer img{
+	filter: brightness(50%);
+}
